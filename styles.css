@@ -1,162 +1,166 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #316AB2;
-    color: white;
-  }
-  
-  #nameId {
-    flex-wrap: wrap;
-  }
-  
-  #types {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .type {
-    width: 75px;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 0.7rem;
-    padding: 5px;
-  }
-  
-  .grass {
-    background-color: green;
-  }
-  
-  .poison {
-    background-color: purple;
-  }
-  
-  .ghost {
-    background-color: #4B0082;
-  }
-  
-  .normal {
-    background-color: grey;
-  }
-  
-  .fighting {
-    background-color: orange;
-  }
-  
-  .flying {
-    background-color: lightblue;
-  }
-  
-  .ground {
-    background-color: brown;
-  }
-  
-  .rock {
-    background-color: #afa981;
-  }
-  
-  .bug {
-    background-color: #91a119;
-  }
-  
-  .steel {
-    background-color: #60a1b8;
-  }
-  
-  .fire {
-    background-color: red;
-  }
-  
-  .water {
-    background-color: blue;
-  }
-  
-  .electric {
-    background-color: #fac000;
-  }
-  
-  .psychich {
-    background-color: #ef4179;
-  }
-  
-  .ice {
-    background-color: #3dcef3;
-  }
-  
-  .fairy {
-    background-color: #3dcef3;
-  }
-  
-  .dark {
-    background-color: black;
-  }
-  
-  #main_container {
-    background-color: #C2C2C2;
-    min-height: 400px;
-    min-width: 350px;
-    border: 2px solid yellow;
-    border-radius: 20px;
-  }
-  
-  #sprite-container{
-    background-color: #c5e6e6;
-    min-height: 100px;
-    min-width: 100px;
-    margin: 10px;
-  }
-  
-  #result-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-  }
-  
-  #search-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  table {
-      border-collapse: collapse;
-      font-size: 16px;
-  }
-  
-  th, td {
-      padding: 12px 15px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-      background-color: #f4f4f4;
-      color: #333;
-      font-weight: bold;
-  }
-  
-  tr:nth-child(even) {
-      background-color: #f9f9f9;
-  }
-  
-  tr:hover {
-      background-color: #f1f1f1;
-  }
-  
-  caption {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      text-align: left;
-      color: #333;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #316AB2;
+  color: white;
+}
+
+button {
+  margin: 5px;
+}
+
+#nameId {
+  flex-wrap: wrap;
+}
+
+#types {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.type {
+  width: 75px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 0.7rem;
+  padding: 5px;
+}
+
+.grass {
+  background-color: green;
+}
+
+.poison {
+  background-color: purple;
+}
+
+.ghost {
+  background-color: #4B0082;
+}
+
+.normal {
+  background-color: grey;
+}
+
+.fighting {
+  background-color: orange;
+}
+
+.flying {
+  background-color: lightblue;
+}
+
+.ground {
+  background-color: brown;
+}
+
+.rock {
+  background-color: #afa981;
+}
+
+.bug {
+  background-color: #91a119;
+}
+
+.steel {
+  background-color: #60a1b8;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.electric {
+  background-color: #fac000;
+}
+
+.psychich {
+  background-color: #ef4179;
+}
+
+.ice {
+  background-color: #3dcef3;
+}
+
+.fairy {
+  background-color: #3dcef3;
+}
+
+.dark {
+  background-color: black;
+}
+
+#main_container {
+  background-color: #C2C2C2;
+  min-height: 400px;
+  min-width: 350px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+
+#sprite-container{
+  background-color: #c5e6e6;
+  min-height: 100px;
+  min-width: 100px;
+  margin: 10px;
+}
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+#search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+}
